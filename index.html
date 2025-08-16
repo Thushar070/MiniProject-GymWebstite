@@ -206,29 +206,32 @@
   </header>
 
   <!-- Form Section -->
-  <section class="container">
-    <form action="#">
-      <div class="form-group">
-        <input type="text" placeholder="Enter Your Name" />
-      </div>
-      <div class="form-group">
-        <input type="email" placeholder="Enter Your Email" />
-      </div>
-      <div class="form-group">
-        <input type="text" placeholder="Enter Your Gender" />
-      </div>
-      <div class="form-group">
-        <input type="number" placeholder="Enter Your Number" />
-      </div>
-      <div class="form-group">
-        <input type="number" placeholder="Enter Your Age" />
-      </div>
-      <div class="form-group">
-        <input type="text" placeholder="Enter Your Address" />
-      </div>
-      <button class="btn">Submit</button>
-    </form>
-  </section>
+  <!-- Form Section -->
+<section class="container">
+  <form action="https://formspree.io/f/mvgqnokp" method="post">
+    <div class="form-group">
+      <input type="text" name="name" placeholder="Enter Your Name" required />
+    </div>
+    <div class="form-group">
+      <input type="email" name="email" placeholder="Enter Your Email" required />
+    </div>
+    <div class="form-group">
+      <input type="text" name="gender" placeholder="Enter Your Gender" />
+    </div>
+    <div class="form-group">
+      <input type="number" name="phone" placeholder="Enter Your Number" required />
+    </div>
+    <div class="form-group">
+      <input type="number" name="age" placeholder="Enter Your Age" />
+    </div>
+    <div class="form-group">
+      <input type="text" name="address" placeholder="Enter Your Address" />
+    </div>
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</section>
+
 
 </body>
 </html>
+
